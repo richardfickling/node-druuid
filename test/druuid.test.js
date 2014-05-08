@@ -1,12 +1,12 @@
 
 var druuid = require('..')
-  , bignum = require('bignum');
+  , bigint = require('bigint');
 
 describe('druuid', function(){
   describe('.gen', function(){
     it('generates a UUID', function(){
       var uuid = druuid.gen();
-      uuid.should.be.instanceOf(bignum);
+      uuid.should.be.instanceOf(bigint);
       uuid.should.not.equal(druuid.gen());
     });
 

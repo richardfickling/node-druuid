@@ -14,7 +14,7 @@
     "test": "make test"
   },
   "dependencies": {
-    "bignum": "0.6.2"
+    "bigint": "0.4.2"
   },
   "devDependencies": {
     "mocha": "1.16.0",
